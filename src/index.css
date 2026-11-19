@@ -1,0 +1,11 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-canvas text-slate-800 font-sans antialiased; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-navy-500; }
+}
